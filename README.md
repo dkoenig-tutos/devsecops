@@ -256,8 +256,42 @@ Hi dkoenig-tutos! You've successfully authenticated, but GitHub does not provide
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png)
 
 ```
+$ git clone git@github.com:dkoenig-tutos/devsecops.git
+Clonage dans 'devsecops'...
+remote: Enumerating objects: 83, done.
+remote: Counting objects: 100% (83/83), done.
+remote: Compressing objects: 100% (79/79), done.
+remote: Total 83 (delta 19), reused 34 (delta 3), pack-reused 0
+Réception d'objets: 100% (83/83), 3.27 Mio | 1.34 Mio/s, fait.
+Résolution des deltas: 100% (19/19), fait.
+$ cd devsecops/
+$ git status
+Sur la branche main
+Votre branche est à jour avec 'origin/main'.
 
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+$ git add images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png
+$ git commit -m "Test SSH"
+[main ffd1a79] Test SSH
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png
+$ git push
+Énumération des objets: 6, fait.
+Décompte des objets: 100% (6/6), fait.
+Compression par delta en utilisant jusqu'à 8 fils d'exécution
+Compression des objets: 100% (4/4), fait.
+Écriture des objets: 100% (4/4), 167.15 Kio | 1.31 Mio/s, fait.
+Total 4 (delta 2), réutilisés 0 (delta 0), réutilisés du pack 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:dkoenig-tutos/devsecops.git
+   232f276..ffd1a79  main -> main
 ```
+
+Le dernier git push, sans identification, valide le fonctionnement.
 
 <a href="#section0">Remonter</a>
 
