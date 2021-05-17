@@ -444,25 +444,87 @@ ssb   rsa4096/CEC8AECEA2297EC3 2021-05-17 [E]
 
 ```
 
+```
+$ gpg --armor --export 83D5178EFBB83FDE
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+HPYDCwoqQHXzEUju
+=L8ML
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+```
+$ git config --global user.signingkey 83D5178EFBB83FDE
+```
+
+```
+$ if [ -r ~/.bash_profile ]; then echo 'export GPG_TTY=$(tty)' >> ~/.bash_profile; \
+>   else echo 'export GPG_TTY=$(tty)' >> ~/.profile; fi
+```
+
+```
+$ sudo nano ~/.profile 
+$ source ~/.profile
+```
+
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0002.png)
 
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0003.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0004.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0005.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0006.png)
 
 
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
 
 <a href="#section0">Remonter</a>
 
