@@ -4,9 +4,10 @@
 ## Architecture DevSecOps étape par étape
 
 **Table des matières**
-====================
+======================
 
 ****Préparation du poste de travail du développeur****
+------------------------------------------------------
 
 <a href="#step1">I - Création d'un compte Github [Dev]</a><br/>
 <a href="#step2">II - Création d'un repository dans Github [Dev]</a><br/>
