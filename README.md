@@ -17,7 +17,7 @@
 
 --------------------
 
-<h3 id="step1">I - Création d'un compte Github [Dev]</h3>
+<h2 id="step1">I - Création d'un compte Github [Dev]</h2>
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0001-Creation_d_un_compte_Github-0001.png)
 
@@ -43,7 +43,7 @@
 
 --------------------
 
-<h3 id="step2">II - Création d'un repository dans Github [Dev]</h3>
+<h2 id="step2">II - Création d'un repository dans Github [Dev]</h2>
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0002-Creation_d_un_repository_dans_Github-0001.png)
 
@@ -55,7 +55,7 @@
 
 --------------------
 
-<h3 id="step3">III - Installation de Git [Dev]</h3>
+<h2 id="step3">III - Installation de Git [Dev]</h2>
 
 [Procédure officielle d'installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 [Repository des releases Git](https://github.com/git/git/releases)
@@ -94,7 +94,7 @@ file:/home/dkoenig/.gitconfig   user.email=dkoenig.tutos@gmail.com
 
 --------------------
 
-<h3 id="step4">IV - Création du repository Git local via HTTPS [Dev]</h3>
+<h2 id="step4">IV - Création du repository Git local via HTTPS [Dev]</h2>
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0004-Creation_du_repository_Git_local-0001.png)
 
@@ -156,7 +156,7 @@ $ git push
 
 --------------------
 
-<h3 id="step5">V - Rédaction du fichier README dans Git [Dev]</h3>
+<h2 id="step5">V - Rédaction du fichier README dans Git [Dev]</h2>
 
 Cliquer sur <i>Edit this file</i>.
 
@@ -168,7 +168,7 @@ Cliquer sur <i>Edit this file</i>.
 
 --------------------
 
-<h3 id="step6">VI - Sécurisation de la connection à Github [DevSec]</h3>
+<h2 id="step6">VI - Sécurisation de la connection à Github [DevSec]</h2>
 
 [Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
@@ -225,13 +225,13 @@ $ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 
 --------------------
 
-<h3 id="step7">VII - Signature des commits [DevSec]</h3>
+<h2 id="step7">VII - Signature des commits [DevSec]</h2>
 
 <a href="#section0">Remonter</a>
 
 --------------------
 
-<h3 id="step8">VIII - Installation de Visual Studio Code [Dev]</h3>
+<h2 id="step8">VIII - Installation de Visual Studio Code [Dev]</h2>
 
 <a href="#section0">Remonter</a>
 
