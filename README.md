@@ -349,6 +349,101 @@ Le dernier git push, sans identification, valide le fonctionnement.
 
 <h2 id="step7">VII - Signature des commits via GPG [DevSec]</h2>
 
+[Documentation officielle sur Github](https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-gpg-keys)
+
+```
+$ cd ~
+```
+
+```
+$ gpg --version
+gpg (GnuPG) 2.2.19
+libgcrypt 1.8.5
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: /home/dkoenig/.gnupg
+Algorithmes pris en charge :
+Clef publique : RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Chiffrement : IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256,
+              TWOFISH, CAMELLIA128, CAMELLIA192, CAMELLIA256
+Hachage : SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compression : Non compressé, ZIP, ZLIB, BZIP2
+```
+
+```
+$ gpg --full-generate-key
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Sélectionnez le type de clef désiré :
+   (1) RSA et RSA (par défaut)
+   (2) DSA et Elgamal
+   (3) DSA (signature seule)
+   (4) RSA (signature seule)
+  (14) Existing key from card
+Quel est votre choix ? 
+les clefs RSA peuvent faire une taille comprise entre 1024 et 4096 bits.
+Quelle taille de clef désirez-vous ? (3072) 4096
+La taille demandée est 4096 bits
+Veuillez indiquer le temps pendant lequel cette clef devrait être valable.
+         0 = la clef n'expire pas
+      <n>  = la clef expire dans n jours
+      <n>w = la clef expire dans n semaines
+      <n>m = la clef expire dans n mois
+      <n>y = la clef expire dans n ans
+Pendant combien de temps la clef est-elle valable ? (0) 
+La clef n'expire pas du tout
+Est-ce correct ? (o/N) o
+
+GnuPG doit construire une identité pour identifier la clef.
+
+Nom réel : dkoenig-tutos
+Adresse électronique : dkoenig.tutos@gmail.com
+Commentaire : Github
+Vous avez sélectionné cette identité :
+    « dkoenig-tutos (Github) <dkoenig.tutos@gmail.com> »
+
+Changer le (N)om, le (C)ommentaire, l'(A)dresse électronique
+ou (O)ui/(Q)uitter ? O
+De nombreux octets aléatoires doivent être générés. Vous devriez faire
+autre chose (taper au clavier, déplacer la souris, utiliser les disques)
+pendant la génération de nombres premiers ; cela donne au générateur de
+nombres aléatoires une meilleure chance d'obtenir suffisamment d'entropie.
+De nombreux octets aléatoires doivent être générés. Vous devriez faire
+autre chose (taper au clavier, déplacer la souris, utiliser les disques)
+pendant la génération de nombres premiers ; cela donne au générateur de
+nombres aléatoires une meilleure chance d'obtenir suffisamment d'entropie.
+gpg: clef 83D5178EFBB83FDE marquée de confiance ultime.
+gpg: revocation certificate stored as '/home/dkoenig/.gnupg/openpgp-revocs.d/5E66455BD2F21F0D3713B3C783D5178EFBB83FDE.rev'
+les clefs publique et secrète ont été créées et signées.
+
+pub   rsa4096 2021-05-17 [SC]
+      5E66455BD2F21F0D3713B3C783D5178EFBB83FDE
+uid                      dkoenig-tutos (Github) <dkoenig.tutos@gmail.com>
+sub   rsa4096 2021-05-17 [E]
+```
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0001.png)
+
+```
+$ gpg --list-secret-keys --keyid-format LONG
+gpg: vérification de la base de confiance
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: profondeur : 0  valables :   1  signées :   0
+     confiance : 0 i., 0 n.d., 0 j., 0 m., 0 t., 1 u.
+/home/dkoenig/.gnupg/pubring.kbx
+--------------------------------
+sec   rsa4096/83D5178EFBB83FDE 2021-05-17 [SC]
+      5E66455BD2F21F0D3713B3C783D5178EFBB83FDE
+uid                [  ultime ] dkoenig-tutos (Github) <dkoenig.tutos@gmail.com>
+ssb   rsa4096/CEC8AECEA2297EC3 2021-05-17 [E]
+
+```
+
 <a href="#section0">Remonter</a>
 
 --------------------
