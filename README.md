@@ -134,10 +134,30 @@ Modifications qui seront validées :
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0008.png
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0009.png
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0010.png
+$ git commit -m "Rédaction du fichier README dans Git"
+[main cd35688] Rédaction du fichier README dans Git
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 images/0005-Redaction_du_fichier_README_dans_Git-0001.png
+ create mode 100644 images/0005-Redaction_du_fichier_README_dans_Git-0002.png
+ create mode 100644 images/WAF.png
+$ git status
+Sur la branche main
+Votre branche est en avance sur 'origin/main' de 1 commit.
+  (utilisez "git push" pour publier vos commits locaux)
+
+rien à valider, la copie de travail est propre
 $ git push
 Username for 'https://github.com': dkoenig-tutos
 Password for 'https://dkoenig-tutos@github.com': 
-Everything up-to-date
+Énumération des objets: 8, fait.
+Décompte des objets: 100% (8/8), fait.
+Compression par delta en utilisant jusqu'à 8 fils d'exécution
+Compression des objets: 100% (6/6), fait.
+Écriture des objets: 100% (6/6), 642.88 Kio | 17.86 Mio/s, fait.
+Total 6 (delta 2), réutilisés 0 (delta 0), réutilisés du pack 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/dkoenig-tutos/devsecops.git
+   0c4fdf2..cd35688  main -> main
 ```
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0004-Creation_du_repository_Git_local-0002.png)
