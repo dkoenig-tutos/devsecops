@@ -11,7 +11,7 @@
 <a href="#step3">III - Installation de Git [Dev]</a><br/>
 <a href="#step4">IV - Création du repository Git local via HTTPS [Dev]</a><br/>
 <a href="#step5">V - Rédaction du fichier README dans Git [Dev]</a><br/>
-<a href="#step6">VI - Sécurisation de la connection à Github [DevSec]</a><br/>
+<a href="#step6">VI - Sécurisation de la connection à Github via SSH [DevSec]</a><br/>
 <a href="#step7">VII - Signature des commits [DevSec]</a><br/>
 <a href="#step8">VIII - Installation de Visual Studio Code [Dev]</a><br/>
 
@@ -180,9 +180,9 @@ Cliquer sur <i>Edit this file</i>.
 
 --------------------
 
-<h2 id="step6">VI - Sécurisation de la connection à Github [DevSec]</h2>
+<h2 id="step6">VI - Sécurisation de la connection à Github via SSH [DevSec]</h2>
 
-[Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+[Documentation officielle sur Github](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ```
 $ cd ~
