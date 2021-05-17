@@ -71,7 +71,7 @@ git version 2.31.1
 
 --------------------
 
-<h3 id="step4">IV - Création du repository Git local [Dev]</h3>
+<h3 id="step4">IV - Création du repository Git local via HTTPS [Dev]</h3>
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0004-Creation_du_repository_Git_local-0001.png)
 
