@@ -57,6 +57,9 @@
 
 <h3 id="step3">III - Installation de Git [Dev]</h3>
 
+[Procédure officielle d'installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+[Repository des releases Git](https://github.com/git/git/releases)
+
 Ouvrir un terminal.
 
 ```
