@@ -524,7 +524,70 @@ $ source ~/.profile
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0006.png)
 
+```
+$ cd /mnt/data/github/devsecops
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Dépaquetage des objets: 100% (6/6), 4.04 Kio | 2.02 Mio/s, fait.
+Depuis github.com:dkoenig-tutos/devsecops
+   a24d7b0..6fc9368  main       -> origin/main
+Mise à jour a24d7b0..6fc9368
+Fast-forward
+ README.md | 82 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 82 insertions(+)
+```
 
+```
+$ git status
+Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	images/0007-Signature_des_commits_via_GPG-0002.png
+	images/0007-Signature_des_commits_via_GPG-0003.png
+	images/0007-Signature_des_commits_via_GPG-0004.png
+	images/0007-Signature_des_commits_via_GPG-0005.png
+	images/0007-Signature_des_commits_via_GPG-0006.png
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+```
+
+```
+$ git add *
+```
+
+```
+$ git commit -S -m "Test de la signature GPG"
+```
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0007.png)
+
+```
+[main 1a88cac] Test de la signature GPG
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 images/0007-Signature_des_commits_via_GPG-0002.png
+ create mode 100644 images/0007-Signature_des_commits_via_GPG-0003.png
+ create mode 100644 images/0007-Signature_des_commits_via_GPG-0004.png
+ create mode 100644 images/0007-Signature_des_commits_via_GPG-0005.png
+ create mode 100644 images/0007-Signature_des_commits_via_GPG-0006.png
+```
+
+```
+$ git push
+Énumération des objets: 10, fait.
+Décompte des objets: 100% (10/10), fait.
+Compression par delta en utilisant jusqu'à 8 fils d'exécution
+Compression des objets: 100% (8/8), fait.
+Écriture des objets: 100% (8/8), 649.12 Kio | 3.20 Mio/s, fait.
+Total 8 (delta 2), réutilisés 0 (delta 0), réutilisés du pack 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:dkoenig-tutos/devsecops.git
+   6fc9368..1a88cac  main -> main
+```
 
 <a href="#section0">Remonter</a>
 
