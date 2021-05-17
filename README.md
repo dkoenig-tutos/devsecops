@@ -62,12 +62,32 @@
 
 Ouvrir un terminal.
 
+### Installation de Git
+
 ```
-$ sudo add-apt-repository -y ppa:git-core/ppa
-$ sudo apt update
-$ sudo apt install -y git
+$ sudo apt-get install -y dh-autoreconf libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+$ sudo apt-get install -y asciidoc xmlto docbook2x
+$ sudo apt-get install -y install-info
+$ cd /tmp
+$ wget https://github.com/git/git/archive/refs/tags/v2.31.1.tar.gz
+$ tar -zxf v2.31.1.tar.gz
+$ cd git-2.31.1/
+$ make configure
+$ ./configure --prefix=/usr
+$ make all doc info
+$ sudo make install install-doc install-html install-info
 $ git --version
 git version 2.31.1
+```
+
+### Configuration de Git pour Github
+
+```
+$ git config --global user.name "dkoenig-tutos"
+$ git config --global user.email dkoenig.tutos@gmail.com
+$ git config --list --show-origin
+file:/home/dkoenig/.gitconfig   user.name=dkoenig-tutos
+file:/home/dkoenig/.gitconfig   user.email=dkoenig.tutos@gmail.com
 ```
 
 <a href="#section0">Remonter</a>
