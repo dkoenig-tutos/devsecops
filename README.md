@@ -591,6 +591,8 @@ To github.com:dkoenig-tutos/devsecops.git
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0008.png)
 
+[Documentation pour la signature des tags](https://docs.github.com/en/github/authenticating-to-github/signing-tags)
+
 <a href="#section0">Remonter</a>
 
 --------------------
