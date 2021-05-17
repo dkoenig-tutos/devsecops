@@ -6,13 +6,15 @@
 **Table des matières**
 ====================
 
+****Préparation du poste de travail du développeur****
+
 <a href="#step1">I - Création d'un compte Github [Dev]</a><br/>
 <a href="#step2">II - Création d'un repository dans Github [Dev]</a><br/>
 <a href="#step3">III - Installation de Git [Dev]</a><br/>
 <a href="#step4">IV - Création du repository Git local via HTTPS [Dev]</a><br/>
 <a href="#step5">V - Rédaction du fichier README.md dans Git [Dev]</a><br/>
 <a href="#step6">VI - Sécurisation de la connection à Github via SSH [DevSec]</a><br/>
-<a href="#step7">VII - Signature des commits [DevSec]</a><br/>
+<a href="#step7">VII - Signature des commits via GPG [DevSec]</a><br/>
 <a href="#step8">VIII - Installation de Visual Studio Code [Dev]</a><br/>
 
 --------------------
@@ -344,7 +346,7 @@ Le dernier git push, sans identification, valide le fonctionnement.
 
 --------------------
 
-<h2 id="step7">VII - Signature des commits [DevSec]</h2>
+<h2 id="step7">VII - Signature des commits via GPG [DevSec]</h2>
 
 <a href="#section0">Remonter</a>
 
