@@ -102,19 +102,6 @@ file:/home/dkoenig/.gitconfig   user.email=dkoenig.tutos@gmail.com
 $ cd /mnt/data
 $ mkdir github
 $ cd github
-$ git config --global user.name "dkoenig-tutos"
-$ git config --global user.email "dkoenig.tutos@gmail.com"
-$ git config --list
-user.name=dkoenig-tutos
-user.email=dkoenig.tutos@gmail.com
-core.repositoryformatversion=0
-core.filemode=true
-core.bare=false
-core.logallrefupdates=true
-remote.origin.url=https://github.com/dkoenig-tutos/devsecops.git
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-branch.main.remote=origin
-branch.main.merge=refs/heads/main
 $ git clone https://github.com/dkoenig-tutos/devsecops.git
 ```
 
