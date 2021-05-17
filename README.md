@@ -245,9 +245,19 @@ Votre branche est à jour avec 'origin/main'.
 rien à valider, la copie de travail est propre
 $ cd ..
 $ rm -rf devsecops
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.121.3' (RSA) to the list of known hosts.
+Hi dkoenig-tutos! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png)
 
+```
+
+```
 
 <a href="#section0">Remonter</a>
 
