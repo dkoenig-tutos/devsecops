@@ -68,6 +68,9 @@ Ouvrir un terminal.
 $ sudo add-apt-repository -y ppa:git-core/ppa
 $ sudo apt update
 $ sudo apt install -y git
+```
+
+```
 $ git --version
 git version 2.31.1
 ```
@@ -77,6 +80,9 @@ git version 2.31.1
 ```
 $ git config --global user.name "dkoenig-tutos"
 $ git config --global user.email dkoenig.tutos@gmail.com
+```
+
+```
 $ git config --list --show-origin
 file:/home/dkoenig/.gitconfig   user.name=dkoenig-tutos
 file:/home/dkoenig/.gitconfig   user.email=dkoenig.tutos@gmail.com
@@ -109,7 +115,13 @@ Fichiers non suivis:
 	images/
 
 aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+```
+
+```
 $ git add images/
+```
+
+```
 $ git status
 Sur la branche main
 Votre branche est à jour avec 'origin/main'.
@@ -126,18 +138,27 @@ Modifications qui seront validées :
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0008.png
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0009.png
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0010.png
+```
+
+```
 $ git commit -m "Rédaction du fichier README dans Git"
 [main cd35688] Rédaction du fichier README dans Git
  3 files changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 images/0005-Redaction_du_fichier_README_dans_Git-0001.png
  create mode 100644 images/0005-Redaction_du_fichier_README_dans_Git-0002.png
  create mode 100644 images/WAF.png
+```
+
+```
 $ git status
 Sur la branche main
 Votre branche est en avance sur 'origin/main' de 1 commit.
   (utilisez "git push" pour publier vos commits locaux)
 
 rien à valider, la copie de travail est propre
+```
+
+```
 $ git push
 Username for 'https://github.com': dkoenig-tutos
 Password for 'https://dkoenig-tutos@github.com': 
@@ -178,6 +199,9 @@ Cliquer sur <i>Edit this file</i>.
 
 ```
 $ cd ~
+```
+
+```
 $ ls -al .ssh/
 total 8
 drwx------  2 dkoenig dkoenig 4096 mai   14 20:54 .
@@ -193,7 +217,7 @@ Enter same passphrase again:
 Your identification has been saved in /home/dkoenig/.ssh/id_ed25519
 Your public key has been saved in /home/dkoenig/.ssh/id_ed25519.pub
 The key fingerprint is:
-SHA256:uTEfjicF0fNoBAhXdxsV+6xjmNwK89UIOPem30ptJgM dkoenig.tutos@gmail.com
+SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx dkoenig.tutos@gmail.com
 The key's randomart image is:
 +--[ED25519 256]--+
 |    ...o+o. o.o. |
@@ -206,14 +230,23 @@ The key's randomart image is:
 |         o + B B |
 |            +.o..|
 +----[SHA256]-----+
+```
+
+```
 $ ls -al .ssh/
 total 16
 drwx------  2 dkoenig dkoenig 4096 mai   17 21:06 .
 drwxr-xr-x 18 dkoenig dkoenig 4096 mai   17 20:16 ..
 -rw-------  1 dkoenig dkoenig  464 mai   17 21:06 id_ed25519
 -rw-r--r--  1 dkoenig dkoenig  105 mai   17 21:06 id_ed25519.pub
+```
+
+```
 $ eval "$(ssh-agent -s)"
 Agent pid 229559
+```
+
+```
 $ ssh-add ~/.ssh/id_ed25519
 Enter passphrase for /home/dkoenig/.ssh/id_ed25519: 
 Identity added: /home/dkoenig/.ssh/id_ed25519 (dkoenig.tutos@gmail.com)
@@ -243,8 +276,14 @@ Sur la branche main
 Votre branche est à jour avec 'origin/main'.
 
 rien à valider, la copie de travail est propre
+```
+
+```
 $ cd ..
 $ rm -rf devsecops
+```
+
+```
 $ ssh -T git@github.com
 The authenticity of host 'github.com (140.82.121.3)' can't be established.
 RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
@@ -264,7 +303,13 @@ remote: Compressing objects: 100% (79/79), done.
 remote: Total 83 (delta 19), reused 34 (delta 3), pack-reused 0
 Réception d'objets: 100% (83/83), 3.27 Mio | 1.34 Mio/s, fait.
 Résolution des deltas: 100% (19/19), fait.
+```
+
+```
 $ cd devsecops/
+```
+
+```
 $ git status
 Sur la branche main
 Votre branche est à jour avec 'origin/main'.
@@ -274,11 +319,20 @@ Fichiers non suivis:
 	images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png
 
 aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+```
+
+```
 $ git add images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png
+```
+
+```
 $ git commit -m "Test SSH"
 [main ffd1a79] Test SSH
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0007.png
+```
+ 
+ ```
 $ git push
 Énumération des objets: 6, fait.
 Décompte des objets: 100% (6/6), fait.
