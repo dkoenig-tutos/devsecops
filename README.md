@@ -237,6 +237,18 @@ $ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0006.png)
 
+```
+$ git status
+Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+rien à valider, la copie de travail est propre
+$ cd ..
+$ rm -rf devsecops
+```
+
+
+
 <a href="#section0">Remonter</a>
 
 --------------------
