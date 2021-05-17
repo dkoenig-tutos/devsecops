@@ -10,7 +10,7 @@
 <a href="#step2">II - Création d'un repository dans Github [Dev]</a><br/>
 <a href="#step3">III - Installation de Git [Dev]</a><br/>
 <a href="#step4">IV - Création du repository Git local via HTTPS [Dev]</a><br/>
-<a href="#step5">V - Rédaction du fichier README dans Git [Dev]</a><br/>
+<a href="#step5">V - Rédaction du fichier README.md dans Git [Dev]</a><br/>
 <a href="#step6">VI - Sécurisation de la connection à Github via SSH [DevSec]</a><br/>
 <a href="#step7">VII - Signature des commits [DevSec]</a><br/>
 <a href="#step8">VIII - Installation de Visual Studio Code [Dev]</a><br/>
@@ -158,7 +158,7 @@ To https://github.com/dkoenig-tutos/devsecops.git
 
 --------------------
 
-<h2 id="step5">V - Rédaction du fichier README dans Git [Dev]</h2>
+<h2 id="step5">V - Rédaction du fichier README.md dans Git [Dev]</h2>
 
 Cliquer sur <i>Edit this file</i>.
 
@@ -193,30 +193,31 @@ Enter same passphrase again:
 Your identification has been saved in /home/dkoenig/.ssh/id_ed25519
 Your public key has been saved in /home/dkoenig/.ssh/id_ed25519.pub
 The key fingerprint is:
-SHA256:C+q9+TZqU08P+tMp8sSfOIkkkdfwEnV7QXVO+AvYK0U dkoenig.tutos@gmail.com
+SHA256:uTEfjicF0fNoBAhXdxsV+6xjmNwK89UIOPem30ptJgM dkoenig.tutos@gmail.com
 The key's randomart image is:
 +--[ED25519 256]--+
-|         .. ..oo+|
-|        o  . E.+.|
-|       . =  = ...|
-|      o o o. =  .|
-|      .oS.  . o .|
-|     ...ooo. . . |
-|    .  +.=o=..   |
-|   . .o.*.*o+.   |
-|    ..=*.=++o    |
+|    ...o+o. o.o. |
+|     ..  o+. o . |
+|        .. +. .  |
+|         oo..  o |
+|        S.= E   o|
+|         O = B = |
+|        + * + & =|
+|         o + B B |
+|            +.o..|
 +----[SHA256]-----+
 $ ls -al .ssh/
 total 16
-drwx------  2 dkoenig dkoenig 4096 mai   16 09:37 .
-drwxr-xr-x 18 dkoenig dkoenig 4096 mai   15 17:41 ..
--rw-------  1 dkoenig dkoenig  464 mai   16 09:37 id_ed25519
--rw-r--r--  1 dkoenig dkoenig  105 mai   16 09:37 id_ed25519.pub
+drwx------  2 dkoenig dkoenig 4096 mai   17 21:06 .
+drwxr-xr-x 18 dkoenig dkoenig 4096 mai   17 20:16 ..
+-rw-------  1 dkoenig dkoenig  464 mai   17 21:06 id_ed25519
+-rw-r--r--  1 dkoenig dkoenig  105 mai   17 21:06 id_ed25519.pub
 $ eval "$(ssh-agent -s)"
-Agent pid 114994
+Agent pid 229559
 $ ssh-add ~/.ssh/id_ed25519
 Enter passphrase for /home/dkoenig/.ssh/id_ed25519: 
 Identity added: /home/dkoenig/.ssh/id_ed25519 (dkoenig.tutos@gmail.com)
+
 ```
 
 ```
