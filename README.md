@@ -128,16 +128,9 @@ Votre branche est à jour avec 'origin/main'.
 
 Modifications qui seront validées :
   (utilisez "git restore --staged <fichier>..." pour désindexer)
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0001.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0002.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0003.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0004.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0005.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0006.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0007.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0008.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0009.png
-	nouveau fichier : images/0001-Creation_d_un_compte_Github-0010.png
+	nouveau fichier : images/0005-Redaction_du_fichier_README_dans_Git-0001.png
+	nouveau fichier : images/0005-Redaction_du_fichier_README_dans_Git-0002.png
+	nouveau fichier : images/WAF.png
 ```
 
 ```
