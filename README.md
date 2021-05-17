@@ -217,14 +217,25 @@ Agent pid 229559
 $ ssh-add ~/.ssh/id_ed25519
 Enter passphrase for /home/dkoenig/.ssh/id_ed25519: 
 Identity added: /home/dkoenig/.ssh/id_ed25519 (dkoenig.tutos@gmail.com)
-
 ```
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0001.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0002.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0003.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0004.png)
 
 ```
 $ sudo apt update
 $ sudo apt install -y xclip
 $ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ```
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0005.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0006.png)
 
 <a href="#section0">Remonter</a>
 
