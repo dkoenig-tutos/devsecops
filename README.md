@@ -225,13 +225,13 @@ Identity added: /home/dkoenig/.ssh/id_ed25519 (dkoenig.tutos@gmail.com)
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0003.png)
 
-![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0004.png)
-
 ```
 $ sudo apt update
 $ sudo apt install -y xclip
 $ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ```
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0004.png)
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0006-Securisation_de_la_connexion_a_Github_via_SSH-0005.png)
 
