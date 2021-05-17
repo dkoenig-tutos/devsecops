@@ -135,6 +135,9 @@ Modifications qui seront validées :
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0009.png
 	nouveau fichier : images/0001-Creation_d_un_compte_Github-0010.png
 $ git push
+Username for 'https://github.com': dkoenig-tutos
+Password for 'https://dkoenig-tutos@github.com': 
+Everything up-to-date
 ```
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0004-Creation_du_repository_Git_local-0002.png)
@@ -147,9 +150,11 @@ $ git push
 
 Cliquer sur <i>Edit this file</i>.
 
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0005-Redaction_du_fichier_README_dans_Git-0001.png)
+
 [Guide Markdown](https://guides.github.com/features/mastering-markdown/)
 
-![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0005-Redaction_du_fichier_README_dans_Git-0001.png)
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0005-Redaction_du_fichier_README_dans_Git-0002.png)
 
 <a href="#section0">Remonter</a>
 
