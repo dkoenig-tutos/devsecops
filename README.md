@@ -57,7 +57,7 @@
 
 <h2 id="step3">III - Installation de Git [Dev]</h2>
 
-[Procédure officielle d'installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+[Procédure officielle d'installation](https://git-scm.com/download/linux)
 [Repository des releases Git](https://github.com/git/git/releases)
 
 Ouvrir un terminal.
@@ -65,17 +65,9 @@ Ouvrir un terminal.
 ### Installation de Git
 
 ```
-$ sudo apt-get install -y dh-autoreconf libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
-$ sudo apt-get install -y asciidoc xmlto docbook2x
-$ sudo apt-get install -y install-info
-$ cd /tmp
-$ wget https://github.com/git/git/archive/refs/tags/v2.31.1.tar.gz
-$ tar -zxf v2.31.1.tar.gz
-$ cd git-2.31.1/
-$ make configure
-$ ./configure --prefix=/usr
-$ make all doc info
-$ sudo make install install-doc install-html install-info
+$ sudo add-apt-repository -y ppa:git-core/ppa
+$ sudo apt update
+$ sudo apt install -y git
 $ git --version
 git version 2.31.1
 ```
