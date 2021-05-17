@@ -280,7 +280,7 @@ $ rm -rf devsecops
 $ ssh -T git@github.com
 The authenticity of host 'github.com (140.82.121.3)' can't be established.
 RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Are you sure you want to continue connecting (yes/no/[fingerprint])? <b>yes</b>
 Warning: Permanently added 'github.com,140.82.121.3' (RSA) to the list of known hosts.
 Hi dkoenig-tutos! You've successfully authenticated, but GitHub does not provide shell access.
 ```
