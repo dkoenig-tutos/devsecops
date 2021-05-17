@@ -9,7 +9,7 @@
 <a href="#step1">I - Création d'un compte Github [Dev]</a><br/>
 <a href="#step2">II - Création d'un repository dans Github [Dev]</a><br/>
 <a href="#step3">III - Installation de Git [Dev]</a><br/>
-<a href="#step4">IV - Création du repository Git local [Dev]</a><br/>
+<a href="#step4">IV - Création du repository Git local via HTTPS [Dev]</a><br/>
 <a href="#step5">V - Rédaction du fichier README dans Git [Dev]</a><br/>
 <a href="#step6">VI - Sécurisation de la connection à Github [DevSec]</a><br/>
 <a href="#step7">VII - Signature des commits [DevSec]</a><br/>
