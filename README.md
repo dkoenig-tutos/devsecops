@@ -589,6 +589,8 @@ To github.com:dkoenig-tutos/devsecops.git
    6fc9368..1a88cac  main -> main
 ```
 
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0008.png)
+
 <a href="#section0">Remonter</a>
 
 --------------------
