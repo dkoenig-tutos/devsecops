@@ -444,6 +444,26 @@ ssb   rsa4096/CEC8AECEA2297EC3 2021-05-17 [E]
 
 ```
 
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0002.png)
+
+
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
 <a href="#section0">Remonter</a>
 
 --------------------
