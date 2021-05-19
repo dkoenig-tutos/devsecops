@@ -645,6 +645,10 @@ $ code
 
 [Site officiel d'Oracle VM VirtualBox](https://www.virtualbox.org/)
 
+```
+$ sudo apt install virtualbox
+```
+
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0009-Installation_d_Oracle_VM_Virtual_Box-0001.png)
 
 <a href="#section0">Remonter</a>
