@@ -599,7 +599,33 @@ To github.com:dkoenig-tutos/devsecops.git
 
 <h2 id="step8">VIII - Installation de Visual Studio Code [Dev]</h2>
 
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0001.png)
 
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0002.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0003.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0004.png)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0005.png)
+
+```
+$ cd /tmp
+$ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+$ sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+$ sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+$ rm -f packages.microsoft.gpg
+$ sudo apt install apt-transport-https
+$ sudo apt update
+$ sudo apt install code
+```
+
+```
+$ code --version
+1.56.2
+054a9295330880ed74ceaedda236253b4f39a335
+x64
+```
 
 <a href="#section0">Remonter</a>
 
