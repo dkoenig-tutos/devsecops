@@ -599,5 +599,7 @@ To github.com:dkoenig-tutos/devsecops.git
 
 <h2 id="step8">VIII - Installation de Visual Studio Code [Dev]</h2>
 
+
+
 <a href="#section0">Remonter</a>
 
