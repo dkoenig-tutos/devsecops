@@ -17,6 +17,8 @@
 <a href="#step6">VI - Sécurisation de la connection à Github via SSH [DevSec]</a><br/>
 <a href="#step7">VII - Signature des commits via GPG [DevSec]</a><br/>
 <a href="#step8">VIII - Installation de Visual Studio Code [Dev]</a><br/>
+<a href="#step9">IX - Installation d'Oracle VM VirtualBox [Dev]</a><br/>
+<a href="#step10">X - Installation de Vagrant [Dev]</a><br/>
 
 --------------------
 
@@ -601,7 +603,7 @@ To github.com:dkoenig-tutos/devsecops.git
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0001.png)
 
-[Site officiel Visual Studio Code](https://code.visualstudio.com/)
+[Site officiel de Visual Studio Code](https://code.visualstudio.com/)
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0002.png)
 
@@ -637,3 +639,22 @@ $ code
 
 <a href="#section0">Remonter</a>
 
+--------------------
+
+<h2 id="step9">IX - Installation d'Oracle VM VirtualBox [Dev]</h2>
+
+[Site officiel d'Oracle VM VirtualBox](https://www.virtualbox.org/)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0009-Installation_d_Oracle_VM_Virtual_Box-0001.png)
+
+<a href="#section0">Remonter</a>
+
+--------------------
+
+<h2 id="step10">X - Installation de Vagrant [Dev]</h2>
+
+[Site officiel de Hashicorp Vagrant](https://www.vagrantup.com/)
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0010-Installation_de_Vagrant-0001.png)
+
+<a href="#section0">Remonter</a>
