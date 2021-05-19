@@ -627,5 +627,11 @@ $ code --version
 x64
 ```
 
+```
+$ code
+```
+
+![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0006.png)
+
 <a href="#section0">Remonter</a>
 
