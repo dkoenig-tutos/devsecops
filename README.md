@@ -601,6 +601,8 @@ To github.com:dkoenig-tutos/devsecops.git
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0001.png)
 
+[Site officiel Visual Studio Code](https://code.visualstudio.com/)
+
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0002.png)
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0008-Installation_de_Visual_Studio_Code-0003.png)
