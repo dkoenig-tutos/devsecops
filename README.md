@@ -102,7 +102,7 @@ file:/home/dkoenig/.gitconfig   user.email=dkoenig.tutos@gmail.com
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0004-Creation_du_repository_Git_local-0001.png)
 
 ```
-$ cd /mnt/data
+$ cd /media/dkoenig/DATA/
 $ mkdir github
 $ cd github
 $ git clone https://github.com/dkoenig-tutos/devsecops.git
