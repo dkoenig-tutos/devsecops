@@ -526,7 +526,7 @@ $ source ~/.profile
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0007-Signature_des_commits_via_GPG-0006.png)
 
 ```
-$ cd /mnt/data/github/devsecops
+$ cd /media/dkoenig/DATA/github/devsecops/
 $ git pull
 remote: Enumerating objects: 8, done.
 remote: Counting objects: 100% (8/8), done.
