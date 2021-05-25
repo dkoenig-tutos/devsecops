@@ -647,7 +647,18 @@ $ code
 [Installation de VirtualBox](https://computingforgeeks.com/install-virtualbox-6-on-ubuntu-debian-linux/)
 
 ```
-$ sudo apt install virtualbox
+$ sudo apt update
+$ sudo apt -y upgrade
+$ sudo reboot
+```
+
+```
+$ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+$ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+$ echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian eoan contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+$ sudo apt update
+$ sudo apt-get install -y linux-headers-$(uname -r) dkms
+$ sudo apt-get install -y virtualbox-6.1
 ```
 
 ![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0009-Installation_d_Oracle_VM_Virtual_Box-0001.png)
