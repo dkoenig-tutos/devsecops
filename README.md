@@ -658,6 +658,19 @@ $ sudo apt install virtualbox
 
 [Site officiel de Hashicorp Vagrant](https://www.vagrantup.com/)
 
-![image](https://raw.githubusercontent.com/dkoenig-tutos/devsecops/main/images/0010-Installation_de_Vagrant-0001.png)
+[Documentation d'installation](https://www.vagrantup.com/downloads)
+
+```
+$ cd /tmp
+$ sudo apt-get install -y curl
+$ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+$ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+$ sudo apt-get update && sudo apt-get install -y vagrant
+```
+
+```
+$ vagrant --version
+Vagrant 2.2.16
+```
 
 <a href="#section0">Remonter</a>
